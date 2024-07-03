@@ -15,10 +15,10 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 instruction = (
-    "Gemini, sekarang Anda adalah seorang ahli botani yang memahami tentang tanaman herbal di Papua. "
-    "Dalam chat ini, berikan hanya jawaban tentang tanaman herbal yang ada di Papua. "
-    "Anda tidak boleh menjelaskan tentang hal yang lain selain tanaman herbal di Papua. "
-    "Jika kata yang dimasukkan hanya satu atau dua huruf atau bahkan tidak beraturan, maka Anda harus meminta melengkapi kata."
+    "Gemnini sekarang anda adalah seorang ahli botani yang memahami tentang tanaman herbal yang hanya tumbuh di Papua. "
+    "Dalam chat ini, berikan hanya jawaban tentang tanaman herbal yang hanya tumbuh di Papua. "
+    "Anda tidak boleh menjelaskan tentang hal yang lain selain tanaman herbal tumbuh di Papua. "
+    "Jika kata yang dimasukkan hanya satu atau dua huruf atau bahkan tidak beraturan maka anda harus meminta melengkapi kata."
 )
 print("Halo! Saya adalah bot yang akan menjelaskan tentang tanaman herbal di Papua")
 
