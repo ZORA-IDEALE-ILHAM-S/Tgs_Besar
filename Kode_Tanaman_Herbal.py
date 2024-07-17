@@ -1,3 +1,4 @@
+#-----------------------------------------
 import os
 from dotenv import load_dotenv
 import google.generativeai as genai
@@ -8,14 +9,16 @@ from gtts import gTTS
 import time
 from bert_score import score  # Import BERTScore
 import matplotlib.pyplot as plt
-
+#-----------------------------------------
 # Memuat variabel lingkungan dari file .env
 load_dotenv()
-
+#-----------------------------------------
+#Pengambilan API
 API_KEY = os.getenv('GEMINI_API_KEY')
-
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
+#-----------------------------------------
+# chat model
 chat = model.start_chat(history=[])
 instruction = (
     "Gemini, sekarang Anda adalah seorang ahli botani yang memahami tentang tanaman herbal di Papua. "
@@ -23,11 +26,12 @@ instruction = (
     "Anda tidak boleh menjelaskan tentang hal yang lain selain tanaman herbal di Papua. "
     "Jika kata yang dimasukkan hanya satu atau dua huruf atau bahkan tidak beraturan, maka Anda harus meminta melengkapi kata."
 )
+#-----------------------------------------
 print("Halo! Saya adalah bot yang akan menjelaskan tentang tanaman herbal di Papua")
-
+#-----------------------------------------
 # Inisialisasi recognizer untuk pengenalan suara
 recognizer = sr.Recognizer()
-
+#-----------------------------------------
 def text_to_speech(text, speed=1.0):
     # Menghilangkan simbol '*'
     text = text.replace('*', '')
@@ -44,7 +48,7 @@ def text_to_speech(text, speed=1.0):
     
     # Remove the mp3 file after playing
     os.remove('ngomong.mp3')
-
+#-----------------------------------------
 def recognize_speech():
     with sr.Microphone() as source:
         print("Virtual Assistant: Mendengarkan...")
@@ -61,12 +65,12 @@ def recognize_speech():
         except sr.RequestError as e:
             print(f"Virtual Assistant: Maaf, ada masalah dengan layanan pengenalan suara: {e}")
         return None
-
+#-----------------------------------------
 # Daftar untuk menyimpan nilai Precision, Recall, dan F1
 precision_scores = []
 recall_scores = []
 f1_scores = []
-
+#-----------------------------------------
 try:
     while True:
         question = recognize_speech()
