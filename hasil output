@@ -1,0 +1,220 @@
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.19s/it] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 1.22 seconds, 0.82 sentences/sec
+BERTScore (Precision): 0.5838
+BERTScore (Recall): 0.6630
+BERTScore (F1): 0.6209
+
+
+Bot: * Akar kuning
+* Daun salam
+* Kunyit
+* Jahe merah
+* Kumis kucing
+* Pegagan
+* Daun sirih
+* Seledri
+* Sirsak
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: tanaman herbal apa yang bisa digunakan untuk mengatasi luka bakar
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 16.13it/s] 
+computing greedy matching.
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 567.95it/s] 
+done in 0.06 seconds, 15.84 sentences/sec
+BERTScore (Precision): 0.6845
+BERTScore (Recall): 0.6821
+BERTScore (F1): 0.6833
+
+
+Bot: Daun sirih
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: cara penggunaannya bagaimana
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.70it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 0.36 seconds, 2.75 sentences/sec
+BERTScore (Precision): 0.5850
+BERTScore (Recall): 0.6687
+BERTScore (F1): 0.6241
+
+
+Bot: **Cara menggunakan daun sirih untuk mengatasi luka bakar:**
+
+1. Cuci bersih daun sirih dan tumbuk hingga halus.
+2. Oleskan tumbukan daun sirih pada area luka bakar.
+3. Tutup luka bakar dengan perban atau kain kasa.
+4. Ganti perban atau kain kasa secara teratur, sekitar 2-3 kali sehari.
+
+Daun sirih memiliki sifat antiseptik dan antiinflamasi yang dapat membantu mempercepat penyembuhan luka bakar dan mengurangi rasa sakit.
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: tanaman herbal apa yang bisa digunakan untuk mengatasi gatal-gatal pada kulit
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  8.73it/s] 
+computing greedy matching.
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 1002.94it/s] 
+done in 0.11 seconds, 9.31 sentences/sec
+BERTScore (Precision): 0.6072
+BERTScore (Recall): 0.6613
+BERTScore (F1): 0.6331
+
+
+Bot: * Daun beluntas
+* Daun kemangi
+* Lidah buaya
+* Kunyit
+* Minyak kelapa
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: cara menggunakan daun beluntas
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.62it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 0.39 seconds, 2.58 sentences/sec
+BERTScore (Precision): 0.5842
+BERTScore (Recall): 0.6812
+BERTScore (F1): 0.6290
+
+
+Bot: **Cara menggunakan daun beluntas untuk mengatasi gatal-gatal pada kulit:**
+
+1. Cuci bersih daun beluntas dan tumbuk hingga halus.
+2. Oleskan tumbukan daun beluntas pada area kulit yang gatal.
+3. Biarkan selama 15-20 menit, lalu bilas dengan air bersih.
+4. Ulangi penggunaan 2-3 kali sehari.
+
+Daun beluntas memiliki sifat antihistamin dan antiinflamasi yang dapat membantu meredakan gatal-gatal pada kulit.
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: tanaman herbal yang bagus untuk mengatasi alergi
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 16.91it/s] 
+computing greedy matching.
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 471.22it/s] 
+done in 0.07 seconds, 13.55 sentences/sec
+BERTScore (Precision): 0.6171
+BERTScore (Recall): 0.6469
+BERTScore (F1): 0.6317
+
+
+Bot: * Daun kelor
+* Daun pegagan
+* Jahe merah
+* Kunyit
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: cara menggunakan daun pegagan
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  2.41it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 82.39it/s] 
+done in 0.42 seconds, 2.36 sentences/sec
+BERTScore (Precision): 0.5429
+BERTScore (Recall): 0.6575
+BERTScore (F1): 0.5947
+
+
+Bot: **Cara menggunakan daun pegagan untuk mengatasi alergi:**
+
+1. Cuci bersih daun pegagan dan keringkan.
+2. Rebus daun pegagan dalam 2 gelas air hingga mendidih.
+3. Kecilkan api dan biarkan mendidih selama 15 menit.
+4. Saring air rebusan daun pegagan dan biarkan hangat.
+5. Minum air rebusan daun pegagan 2-3 kali sehari.
+
+Daun pegagan memiliki sifat antihistamin dan antiinflamasi yang dapat membantu meredakan gejala alergi, seperti gatal-gatal, bersin, dan pilek.
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: Apa saja tanaman herbal yang tumbuh di Papua dan tidak tumbuh di wilayah lain
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.68it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 0.28 seconds, 3.61 sentences/sec
+BERTScore (Precision): 0.5175
+BERTScore (Recall): 0.6413
+BERTScore (F1): 0.5728
+
+
+Bot: * **Pohon matoa** (_Pometia pinnata_)
+* **Pohon buah merah** (_Pandanus conoideus_)
+* **Pohon sagu** (_Metroxylon sagu_)
+* **Pohon pala bungkus** (_Myristica argentea_)
+* **Pohon kayu besi** (_Intsia bijuga_)
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Virtual Assistant: Maaf, saya tidak mengerti.
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: tanaman herbal yang bisa digunakan untuk
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  4.36it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 0.23 seconds, 4.35 sentences/sec
+BERTScore (Precision): 0.5959
+BERTScore (Recall): 0.7304
+BERTScore (F1): 0.6563
+
+
+Bot: Anda perlu melengkapi pertanyaan Anda. Tanaman herbal dapat digunakan untuk berbagai keperluan, seperti:
+
+* Mengobati penyakit
+* Meningkatkan kesehatan
+* Memasak
+* Membuat kosmetik
+
+Silakan lengkapi pertanyaan Anda dengan menyebutkan tujuan penggunaan tanaman herbal yang Anda cari.
+
+
+Virtual Assistant: Mendengarkan...
+Virtual Assistant: Mengenali...
+Kamu: tanaman herbal yang bisa digunakan untuk memutihkan kulit
+calculating scores...
+computing bert embedding.
+100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.72it/s] 
+computing greedy matching.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<?, ?it/s] 
+done in 0.27 seconds, 3.73 sentences/sec
+BERTScore (Precision): 0.5176
+BERTScore (Recall): 0.6457
+BERTScore (F1): 0.5746
+
+
+Bot: * **Daun pegagan** (_Centella asiatica_)
+* **Daun sirih** (_Piper betle_)
+* **Lidah buaya** (_Aloe vera_)
+* **Kunyit** (_Curcuma longa_)
+* **Temulawak** (_Curcuma xanthorrhiza_)
